@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Reviews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="_/js/bootstrap.min.js"></script>
+    <script src="_/js/script.js"></script>
+    <link href="_/styles/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="_/styles/style.css" rel="stylesheet" media="screen">
+  </head>
+
+  <body>
+    <form class="form-inline" role="form">
+      <div class="form-group">
+        <div class="alert alert-success" id="selected-alert">
+          <button type="button" class="close" data-dismiss="alert">x</button>
+          <strong>Topic added to Queue!!</strong>
+        </div>
+
+        <div class="alert alert-danger" id="remove-alert">
+          <button type="button" class="close" data-dismiss="alert">x</button>
+          <strong>Topic removed from Queue!!</strong>
+        </div>
+        
+        <div class="container-fluid" id="maindiv">
+          <div class="row">
+              <h2 align="center"> Autocomplete Search Widget</h2>
+          </div>
+          <!-- Start Search Box -->
+          <div class="row" id="searchboxdiv">
+            <div class="input-group">
+              <input type="text" class="form-control" id="searchbox" placeholder="Search a topic">
+            </div>
+          </div> 
+          <!-- End Search Box -->
+
+          <!-- Start Various topics -->
+          <div class="row" id="searchingtopicsdiv">   
+            <div class="container-fluid" id="searchingtopics"> 
+
+            </div>
+          </div>
+          <!-- End Various topics-->    
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

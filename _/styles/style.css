@@ -1,0 +1,38 @@
+      #maindiv {
+        margin-top: 30px;
+        margin-left: 400px;
+        width: 500px;
+        height: 500px;
+
+      }
+
+      #searchingtopicsdiv {
+        width: 500px;
+        height: 500px;
+        overflow: scroll;
+      }
+
+      #searchbox {
+        width: 500px;
+      }
+
+      .col-md-4 {
+        padding: 50px;
+        border: solid 1px;
+      }
+
+      .col-md-4:hover {
+        background-color: #D3D3D3;    
+      }
+
+      img {
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+      }
+
+      #selected-alert,#remove-alert {
+        margin-left: 550px;
+        margin-right: auto;
+        width:30%;
+      }
