@@ -8,3 +8,13 @@ by the bootstrap are used in here
 
 #Jquery
 Have used jquery for the dynamic creation of the vairous categories (div elements)
+
+#Screenshots
+- Initial UI
+![alt tag](https://github.com/ponrajuganesh/AutocompleteWidget/blob/master/AUTO_1.png)
+- Searching with auto complete
+![alt tag](https://github.com/ponrajuganesh/AutocompleteWidget/blob/master/AUTO_2.png)
+- Selecting items
+![alt tag](https://github.com/ponrajuganesh/AutocompleteWidget/blob/master/AUTO_3.png)
+- Selected items
+![alt tag](https://github.com/ponrajuganesh/AutocompleteWidget/blob/master/AUTO_4.png)
